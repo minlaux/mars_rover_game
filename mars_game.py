@@ -6,10 +6,10 @@ def main():
     pygame.init()
     
     # initialise Game object
-    game = Game('Hebrus Valles.jpg', 'Mars Rover Game', 150, 50)
+    game = Game('background.jpg', 'Mars Rover Game', 1000, 500)
 
     # create destination
-    dest = GameObject('Gusev Crate.jpg', 375, 50, 50, 50)
+    dest = GameObject('destination.jpg', 375, 50, 50, 50)
 
     """ event loop """
 
